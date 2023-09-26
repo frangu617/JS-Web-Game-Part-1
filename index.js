@@ -24,7 +24,7 @@ const newItem = (source, lef, bot) => {
   // document.body.append(itemObject)
   let itemObject = newImage(source, lef, bot);
 
-  itemObject.addEventListener("click", function () {
+  itemObject.addEventListener("dblclick", function () {
     itemObject.remove();
   });
   return itemObject;
